@@ -16,8 +16,8 @@ const MakePlot = ({xData, yData, title, xText, yText}) => {
           },
         ]}
         layout={ 
-          { width: 600, 
-            height: 600, 
+          { width: 540, 
+            height: 400, 
             title: title, 
             xaxis: {
               title: {
