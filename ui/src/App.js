@@ -1,7 +1,4 @@
 import React, {useState, useEffect} from 'react';
-//import nj from 'numjs';
-import nj from 'numjs'
-//var nj = require('numjs');
 
 // My Utility Functions
 import transpose from './mathUtils/transpose';
@@ -19,8 +16,6 @@ GJE(copy(mat),4);
 
 
 function App() {
-
-  let a = nj.array([2,3,4]);
 
   const [energy, setEnergy] = useState([]);
   const [i0, setI0] = useState([]);

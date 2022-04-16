@@ -4,6 +4,7 @@
   "homepage": "https://tkbdsi.github.io/xafs-analyzer",
   "private": true,
   "dependencies": {
+    "@tensorflow/tfjs": "^3.15.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
